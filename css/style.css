@@ -58,26 +58,25 @@ nav a:hover{
    margin-top: 300px;
 }
 /* ===========================section1================= */
-section:nth-of-type(1){
-background-image: url(../img/beans_icon.png);
-background-position: 20% 40%;
-background-size: cover;
-}
-section:nth-of-type(1) img{
-position: sticky;
-width: 100vw;
-}
 .hello{
     width: 30vw;
     margin-left: 100px;
     padding: 120px 0px;
     line-height: 25px;
+    background-image: url(../img/beans_icon.png);
+    background-position: 20% 40%;
+    background-size: cover;
+}
+.firstattachment{
+    background-image: url(../img/bridge_1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
 }
 .hello h2{
     padding-bottom: 30px;
-}
-.cafe:nth-of-type(2){
-background-image: url(../img/bridge_1.jpg);
 }
 /* ========================= id menu ===================== */
 #menu{
@@ -103,36 +102,66 @@ background: url(../img/cake_icon.png);
     padding: 10px;
     display:inline-block;
 }
+.secondattachment{
+    background-image: url(../img/bridge_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+}
 /* =================id story================== */
 #story{
-    padding:100px 0px;
-    display: flex;
+    padding: 100px 0px;
+
 }
 .storytext{
     width: 25vw;
     margin-left: 20%;
+    display: block;
 }
 #story img{
-  height: 25vh;
-   margin-left: 10%;
-   margin-top: 15%;
+  width: 35vw;
+   margin-left:50%;
+   margin-top: 5%;
+   display: inline-block;
+   margin-top: -30%;
+   vertical-align: middle;
+}
+.triattachment{
+  margin-top: 100px;
+  background-image: url(../img/bridge_3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
 }
 /* ==============id catering================== */
 #catering{
     padding: 100px 0px;
-    display: flex;
     background:url(../img/pie_icon.png) no-repeat;
     background-position: 80% 70%;
     background-size: 30%;
 }
 .cateringtext{
     width: 25vw;
-    margin-left: 5%;
+    margin-left: 20%;
+    padding-bottom: 100px;
+    vertical-align: middle;
 }
 #catering img{
-    height: 25vh;
- margin-left: 20%;
- margin-top: 8%;
+width: 30vw;
+ margin-left: 50%;
+ margin-bottom: -19%;
+ 
+}
+.fourattachment{
+    background-image: url(../img/bridge_4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:500px;
+    background-attachment: fixed;
 }
 /* ================id cakes================== */
 section:last-of-type{
